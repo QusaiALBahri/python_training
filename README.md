@@ -1,5 +1,156 @@
 # 🚀 Python Training Journey — From Zero to Shipping (14 Sessions)
 
+
+![albahri org Logo wide middle final (1128 x 191 بيكسل)](https://github.com/user-attachments/assets/8b258bab-087c-4c6b-9c6b-7f9bcc623814)
+
+# 🚀 رحلة تعلم بايثون — من الصفر إلى الاحتراف (١٤ جلسة)
+
+**Hands-on. Production-minded. Fun.**  
+**تدريب عملي، موجه للإنتاج، وممتع.**  
+
+This repository powers a complete Python training path: from **basics** and **logic** to **OOP**, **data analysis**, **GUI/web**, **automation**, and **AI** — with real deliverables, ticket-driven debugging, and a professional GitHub workflow.  
+هذا المستودع يقدم مسارًا تدريبيًا متكاملًا في بايثون: من **الأساسيات** و **المنطق** إلى **البرمجة الكائنية (OOP)**، **تحليل البيانات**، **التطبيقات الرسومية والويب**، **الأتمتة**، و **الذكاء الاصطناعي** — مع مخرجات حقيقية، وتصحيح أخطاء عبر تذاكر، وتدفق عمل احترافي على GitHub.
+
+---
+
+## 🧭 Table of Contents | جدول المحتويات
+- [Overview | نظرة عامة](#overview--نظرة-عامة)
+- [Roadmap (Sessions) | خارطة الطريق (الجلسات)](#roadmap-sessions--خارطة-الطريق)
+- [Quick Start | البداية السريعة](#quick-start--البداية-السريعة)
+- [Directory Layout | هيكلية المجلدات](#directory-layout--هيكلية-المجلدات)
+- [Code Samples | أمثلة برمجية](#code-samples--أمثلة-برمجية)
+- [Tickets & Workflow | التذاكر وتدفق العمل](#tickets--workflow--التذاكر-وتدفق-العمل)
+- [Deliverables | المخرجات](#deliverables--المخرجات)
+- [Resources | الموارد](#resources--الموارد)
+
+---
+
+## Overview | نظرة عامة
+- **Total Sessions | عدد الجلسات:** 14 (كل جلسة ٣ ساعات، الأخيرة ساعتان)  
+- **Approach | المنهجية:** أنشئ → اكسر → أصلح → حصّن.  
+- **Mindset | الفكر:** برمجة بمستوى هندسي: PEP 8، تسجيل (logging)، توثيق، GitHub.  
+- **Outcomes | النتائج:** كتابة كود نظيف، مهارات تحليل البيانات، تطبيقات GUI/ويب، أتمتة ودمج مع الذكاء الاصطناعي.
+
+---
+
+## Roadmap (Sessions) | خارطة الطريق (الجلسات)
+
+| # | Hours ⏱️ | Focus 🎯 | What You’ll Do 🧩 | المحاور |
+|---|:----:|----------|-----------------|----------|
+| 1 | 3h | Basics: Print/Input, Variables, Data Types | Hello + Name, Age next year | الأساسيات: إدخال/إخراج، المتغيرات، الأنواع |
+| 2 | 3h | Functions, Errors, Conditionals, Logic | Discount calc, Login system | الدوال، الأخطاء، الشروط |
+| 3 | 3h | Loops, Lists, OOP Intro | Dice roll, Grades tracker | الحلقات والقوائم ومقدمة OOP |
+| 4 | 3h | List Comp, Files, Decorators, venv | Notes saver, One-liners | القوائم المركبة، الملفات، المولدات |
+| 5 | 3h | Debugging & Workflow | Shopify bug simulation | التصحيح وتدفق العمل |
+| 6 | 3h | Systems Eng — GPA System | Fix bugs #701–705 | هندسة الأنظمة — نظام علامات |
+| 7 | 3h | OOP Advanced, Refactor | Clean intern code | OOP متقدم وإعادة هيكلة |
+| 8 | 3h | Agile Sprints + Libraries | Mini projects per lib | سباقات أجايل + مكتبات |
+| 9 | 3h | Data Analysis (pandas+matplotlib) | Clean CSVs + charts | تحليل البيانات + الرسوم |
+| 10 | 3h | GUI (Tkinter) + Flask | Mini dashboard | تطبيقات رسومية وويب |
+| 11 | 3h | Flask, PyAutoGUI, AI APIs | Build AI-powered apps | أتمتة وذكاء اصطناعي |
+| 12 | 3h | Extra Resources | Self-learning toolkit | موارد إضافية للتعلم |
+| 13 | 3h | Pandas + Colab Workshop | Business insights | ورشة تحليل بيانات |
+| 14 | 2h | Logistic Regression (ML) | First ML algorithm | الانحدار اللوجستي |
+
+---
+
+## Quick Start | البداية السريعة
+
+```bash
+# 1) Create & activate a virtual environment
+python -m venv .venv
+
+# 2) Activate
+# Windows
+.venv\Scripts\activate
+# macOS/Linux
+source .venv/bin/activate
+
+# 3) Install dependencies | تثبيت المكتبات
+pip install numpy pandas matplotlib flask scikit-learn pyautogui faker duckdb colorama playsound
+
+# 4) Run sample | تشغيل مثال
+python samples/hello.py
+```
+
+---
+
+## Directory Layout | هيكلية المجلدات
+
+```
+📦 python-training
+├─ day01_basics/          # الأساسيات
+├─ day02_logic/           # المنطق والدوال
+├─ day03_loops/           # الحلقات والهياكل
+├─ day04_advanced/        # متقدم
+├─ day05_debugging/       # التصحيح
+├─ day06_systems/         # الأنظمة
+├─ day07_refactor/        # إعادة هيكلة
+├─ day08_agile/           # أجايل والمكتبات
+├─ day09_data_viz/        # تحليل البيانات
+├─ day10_gui/             # واجهات رسومية
+├─ day11_web_ai/          # ويب + ذكاء اصطناعي
+├─ day12_resources/       # موارد إضافية
+├─ day13_colab/           # ورشة Colab
+├─ day14_ml/              # التعلم الآلي
+└─ samples/               # أمثلة سريعة
+```
+
+---
+
+## Code Samples | أمثلة برمجية
+
+### Example 1: Hello + Name | مثال ١: مرحبًا + الاسم
+```python
+name = input("اسمك: ")
+age = int(input("عمرك: "))
+print(f"مرحبًا {name}! العام القادم سيكون عمرك {age + 1}")
+```
+
+### Example 2: GPA System Bug Fix | مثال ٢: إصلاح خطأ في نظام المعدل
+```python
+grades = [90, 80, 70]
+gpa = sum(grades) / len(grades)
+print("المعدل:", gpa)
+```
+
+---
+
+## Tickets & Workflow | التذاكر وتدفق العمل
+- **701–705:** مشاكل في نظام GPA (أخطاء منطقية، ملفات ناقصة، تسجيل ضعيف).  
+- **801–805:** مشاكل في مشاريع أجايل (أخطاء في البريد الإلكتروني، البيانات المزيفة، إدخال قاعدة البيانات).  
+
+✅ الحلول عبر **فروع GitHub**: naive → hardened.  
+✅ توثيق العميل في `docs/client_proof/`.  
+
+---
+
+## Deliverables | المخرجات
+- CSVs نظيفة + رسوم بيانية  
+- تطبيقات صغيرة (GUI + Flask)  
+- فروع naive/hardened  
+- ملفات توثيق + كود نظيف  
+
+---
+
+## Resources | الموارد
+- Python Docs — [وثائق بايثون](https://docs.python.org/3/)  
+- Automate the Boring Stuff — [أتمتة المهام المملة](https://automatetheboringstuff.com/)  
+- Hugging Face — [منصة الذكاء الاصطناعي](https://huggingface.co/)  
+- W3Schools Python — [شرح بايثون](https://www.w3schools.com/python/)  
+- Pandas — [تحليل البيانات](https://pandas.pydata.org/)  
+- Matplotlib — [الرسوم البيانية](https://matplotlib.org/)  
+
+---
+
+## License | الرخصة
+Choose a license (MIT, Apache, CC-BY).  
+اختر رخصة مناسبة: MIT أو Apache أو CC-BY.
+
+<img width="564" height="96" alt="albahri org Logo square middle final (1128 x 191 بيكسل)" src="https://github.com/user-attachments/assets/fd966f1c-4778-4844-8137-ba775c48b09a" />
+
+# 🚀 Python Training Journey — From Zero to Shipping (14 Sessions)
+
 **Hands-on. Production-minded. Fun.**  
 This repository powers a complete Python training path: from **basics** and **logic** to **OOP**, **data analysis**, **GUI/web**, **automation**, and **AI** — with real deliverables, ticket-driven debugging, and a professional GitHub workflow.
 
@@ -262,3 +413,4 @@ print("Accuracy:", accuracy_score(y_test, pred))
 ### License
 Educational materials — choose a license that matches your goals (MIT, Apache‑2.0, CC‑BY‑SA).
 
+<img width="564" height="96" alt="albahri org Logo square middle final (1128 x 191 بيكسل)" src="https://github.com/user-attachments/assets/2acef9b5-3fb5-44e7-9369-31b6a58507c1" />
